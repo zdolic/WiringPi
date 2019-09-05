@@ -43,7 +43,7 @@ check_make_ok() {
   fi
 }
 
-sudo=${WIRINGPI_SUDO-sudo}
+sudo="" #${WIRINGPI_SUDO-sudo}
 
 if [ x$1 = "xclean" ]; then
   cd wiringPi
